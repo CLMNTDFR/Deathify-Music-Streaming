@@ -12,7 +12,7 @@
 
 # 🔸 Deathify - Music Download Platform
 
-Deathify is a frontend application built with React, designed to allow users to listen to music albums, add them to a cart, and download them for free.<br><br>The aesthetic of the application is heavily inspired by Spotify, making it both visually appealing and user-friendly.<br><br>This platform is adaptable for any music group, but currently, it exclusively features the audio tracks of the band "Big Death Amego".<br><br>It is a simple, responsive application that provides a seamless experience across devices.
+Deathify is a frontend application built with React ⚛, designed to allow users to listen to music albums, add them to a cart, and download them for free.<br><br>The aesthetic of the application is heavily inspired by Spotify, making it both visually appealing and user-friendly.<br><br>This platform is adaptable for any music group, but currently, it exclusively features the audio tracks of the band "Big Death Amego".<br><br>It is a simple, responsive application that provides a seamless experience across devices.
 
 ## 🔹 Features
 <img alt="Screenshot-Desktop-01.png" src="Screenshot-Desktop-01.png">
