@@ -3,11 +3,18 @@
 </p>
 <br><br>
 
-# Deathify - Music Download Platform
+<p align="center">
+  <a href="https://deathify.netlify.app/">🔸 Visit Deathify here 🔸</a>
+</p>
+
+<br>
+<br>
+
+# 🔸 Deathify - Music Download Platform
 
 Deathify is a frontend application built with React, designed to allow users to listen to music albums, add them to a cart, and download them for free.<br><br>The aesthetic of the application is heavily inspired by Spotify, making it both visually appealing and user-friendly.<br><br>This platform is adaptable for any music group, but currently, it exclusively features the audio tracks of the band "Big Death Amego".<br><br>It is a simple, responsive application that provides a seamless experience across devices.
 
-## Features
+## 🔹 Features
 <img alt="Screenshot-Desktop-01.png" src="Screenshot-Desktop-01.png">
 <br><br>
 
@@ -35,9 +42,10 @@ Deathify is a frontend application built with React, designed to allow users to 
 <img alt="Screenshot-Phone-01.png" src="Screenshot-Phone-01.png" style="display: block; margin: 0 auto; max-width: 300px;">
 <br><br>
 
-## Installation
+## 🔹 Installation
 
 To run Deathify locally, follow these steps:
+<hr><br>
 
 1. **Clone the repository**:
 ```
@@ -46,23 +54,44 @@ git clone https://github.com/your-username/deathify.git
 ```
 cd deathify
 ```
-2. **Install dependencies**:
+<br>
+<hr><br>
+
+2. **Install Node.js and npm**:
+- Ensure you have Node.js and npm installed. You can download and install them from <a href="https://nodejs.org/">nodejs.org.</a><br><br>
+<hr><br>
+
+3. **Install dependencies**:
 
 ```
 npm install
 ```
-Start the development server:
+<br>
+<hr>
+<br>
+
+4. **Start the development server**:
 
 ```
 npm start
 ```
-The application will be available at http://localhost:3000.
+The application will be available at http://localhost:3000.<br>
+<br>
+<hr>
+<br>
 
-## Contributing
+5. **Install React (if not already included in the dependencies)**:
+
+```
+npm install react react-dom
+```
+<br>
+
+## 🔹 Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue to discuss any improvements or features you'd like to see.
 
-## License
+## 🔹 License
 This project is open-sourced under the MIT License. See the LICENSE file for more information.
 
-## Author
+## 🔹 Author
 Clément DEFER - 2024
