@@ -2,10 +2,11 @@
   <img src="https://i.postimg.cc/xTJxzF90/github-banner.png" alt="Deathify Logo Banner">
 </p>
 <br><br>
-
+<hr style="border: none; height: 2px; background-color: orange;">
 <p align="center">
-  <a href="https://deathify.netlify.app/">🔸 Visit Deathify here 🔸</a>
+  <a href="https://deathify.netlify.app/" style="color: white; font-size: 1.2em; text-decoration: none;">🔸 Visit Deathify here 🔸</a>
 </p>
+<hr style="border: none; height: 2px; background-color: orange;">
 
 <br>
 <br>
@@ -45,7 +46,8 @@ Deathify is a frontend application built with React ⚛, designed to allow users
 ## 🔹 Installation
 
 To run Deathify locally, follow these steps:
-<hr><br>
+<hr style="border: none; height: 2px; background-color: orange;">
+<br>
 
 1. **Clone the repository**:
 ```
@@ -55,11 +57,13 @@ git clone https://github.com/your-username/deathify.git
 cd deathify
 ```
 <br>
-<hr><br>
+<hr style="border: none; height: 2px; background-color: orange;">
+<br>
 
 2. **Install Node.js and npm**:
 - Ensure you have Node.js and npm installed. You can download and install them from <a href="https://nodejs.org/">nodejs.org.</a><br><br>
-<hr><br>
+<hr style="border: none; height: 2px; background-color: orange;">
+<br>
 
 3. **Install dependencies**:
 
@@ -67,7 +71,7 @@ cd deathify
 npm install
 ```
 <br>
-<hr>
+<hr style="border: none; height: 2px; background-color: orange;">
 <br>
 
 4. **Start the development server**:
@@ -77,7 +81,7 @@ npm start
 ```
 The application will be available at http://localhost:3000.<br>
 <br>
-<hr>
+<hr style="border: none; height: 2px; background-color: orange;">
 <br>
 
 5. **Install React (if not already included in the dependencies)**:
@@ -95,3 +99,4 @@ This project is open-sourced under the MIT License. See the LICENSE file for mor
 
 ## 🔹 Author
 Clément DEFER - 2024
+<hr style="border: none; height: 2px; background-color: orange;">
