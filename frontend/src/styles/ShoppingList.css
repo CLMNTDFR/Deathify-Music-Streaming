@@ -1,0 +1,57 @@
+.tbs-shopping-list {
+    max-width: 1200px;
+    margin: 0 auto; /* Centrer le conteneur principal */
+    padding: 32px; /* Ajouter du padding autour du contenu */
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.tbs-record-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto; /* Centrer la liste des enregistrements */
+    max-width: 100%; /* Assurer que la liste prend toute la largeur disponible */
+}
+
+.tbs-record-list > div {
+    flex: 1 1 300px; /* Utiliser une base de 300px pour la largeur des éléments */
+    margin: 10px; /* Espacement entre les éléments */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ajustement pour les petits écrans */
+@media (max-width: 768px) {
+    .tbs-record-list > div {
+        flex: 1 1 calc(100% - 20px); /* Prendre toute la largeur disponible sur petits écrans */
+    }
+}
+
+.tbs-add-button {
+    color: #ffffff;
+    background-color: #1c1c1c; /* Couleur gris-clair */
+    border: 1px solid white; /* Bord blanc très fin */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 50px; /* Bord très rond */
+    font-size: 1em;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Ajout de la transition pour box-shadow */
+}
+
+.tbs-add-button img.tbs-plus-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+.tbs-add-button:hover {
+    background-color: #444444; /* Couleur gris-foncé au survol */
+}

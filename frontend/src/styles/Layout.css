@@ -1,0 +1,10 @@
+.tbs-layout-inner {
+	display: flex;
+	flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .tbs-layout-inner {
+        flex-direction: column;
+    }
+}

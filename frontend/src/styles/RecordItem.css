@@ -1,0 +1,50 @@
+.tbs-record-item {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer les éléments horizontalement */
+    text-transform: capitalize;
+    text-align: center; /* Centrer le texte à l'intérieur des éléments */
+    position: relative; /* Nécessaire pour positionner le prix de manière absolue */
+}
+
+.tbs-record-item-cover {
+    height: 220px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.tbs-record-item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer les éléments horizontalement */
+    text-align: center; /* Centrer le texte à l'intérieur des éléments */
+}
+
+.tbs-record-item-name {
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 1em; /* Taille de police par défaut */
+}
+
+.tbs-record-item-year {
+    font-size: 0.8em; /* Taille de police plus petite */
+    margin-top: 5px; /* Ajouter un peu d'espace entre le nom et l'année */
+}
+
+.tbs-record-item-price {
+    position: absolute;
+    top: -10px; /* Ajuster cette valeur pour dépasser légèrement du bord */
+    right: -10px; /* Ajuster cette valeur pour dépasser légèrement du bord */
+    background-color: #1c1c1c; /* Fond noir */
+    color: #ffffff; /* Texte blanc */
+    border-radius: 20%; /* Pour créer un cercle */
+    padding: 8px; /* Ajuster le padding pour contrôler la taille du cercle */
+    font-weight: 500;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px; /* Ajuster la taille du cercle */
+    height: 35px; /* Ajuster la taille du cercle */
+}

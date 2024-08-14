@@ -1,0 +1,56 @@
+.tbs-categories {
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.tbs-category-button {
+    margin: 5px;
+    padding: 8px 16px;
+    border: 1px solid white; /* Bord blanc très fin */
+    background: #1c1c1c;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 50px; /* Bord très rond */
+    font-size: 0.7em; /* Police légèrement plus petite */
+    transition: background-color 0.3s, box-shadow 0.3s, color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tbs-category-button.active, .tbs-category-button:hover {
+    background-color: #444444; /* Couleur gris-foncé au survol */
+    color: #ffffff;
+}
+
+.tbs-category-icon {
+    height: 20px; /* Hauteur commune pour toutes les images */
+    margin-right: 8px;
+}
+
+.tbs-reset-button {
+    margin: 5px;
+    padding: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tbs-reset-button img {
+    height: 20px; /* Hauteur initiale pour l'image de reset */
+    transition: height 0.3s; /* Transition pour la hauteur */
+}
+
+.tbs-reset-button img:hover {
+    height: 22px; /* Hauteur lors du survol pour l'image de reset */
+}
+
+@media (max-width: 768px) {
+    .tbs-categories {
+        padding-top: 50px;
+    }
+}

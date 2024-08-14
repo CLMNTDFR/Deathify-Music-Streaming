@@ -1,0 +1,40 @@
+/* Toast container */
+.Toastify__toast-container {
+    z-index: 9999;
+}
+
+/* Toast */
+.Toastify__toast {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Toast body */
+.Toastify__toast-body {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Toast progress bar */
+.Toastify__progress-bar {
+    background: rgb(238, 255, 0) !important;
+}
+
+/* Custom error toast */
+.Toastify__toast--error {
+    background-color: black !important;
+    color: red !important;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .Toastify__toast-container {
+        width: 90% !important;
+        left: 5% !important;
+        top: 110px !important;
+    }
+
+    .Toastify__toast {
+        width: 100% !important;
+    }
+}

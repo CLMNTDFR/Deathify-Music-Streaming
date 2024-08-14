@@ -1,0 +1,15 @@
+.tbs-footer {
+    color: white; /* Couleur du texte en blanc */
+    background-color: black; /* Fond noir */
+    padding: 32px; /* Padding autour du texte */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    font-weight: 300;
+    text-align: center; /* Centrer le texte */
+    border-top: solid 3px black; /* Bordure en haut */
+}
+
+.tbs-footer-text {
+    font-size: 0.8em; /* Taille du texte */
+}

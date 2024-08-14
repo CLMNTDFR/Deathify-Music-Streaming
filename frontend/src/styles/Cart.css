@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaini&display=swap");
+
+.tbs-cart {
+    position: fixed;
+    top: 17px;
+    right: 10px;
+    color: white;
+    background-color: #000000;
+    padding-top: 10px;
+    width: 250px; /* Augmenter la largeur */
+    height: 38px; /* Hauteur initiale pour le menu fermé */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 10px; /* Bordures arrondies */
+    transition: height 0.5s ease; /* Transition pour l'effet de mouvement */
+}
+
+.tbs-cart-open {
+    height: 400px; /* Augmenter la hauteur pour le menu ouvert */
+}
+
+.tbs-cart-closed {
+    height: 38px;
+}
+
+.tbs-cart-toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tbs-cart-image {
+    height: 20px;
+}
+
+.tbs-cart-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.tbs-cart-header {
+    display: flex;
+    align-items: center;
+}
+
+.tbs-cart-title {
+    font-family: "Jaini", cursive;
+    font-size: 0.8em;
+    letter-spacing: 3px;
+}
+
+.tbs-cart-list {
+    list-style-type: none; /* Supprimer les puces de liste */
+    padding: 0;
+    width: 100%; /* Prendre toute la largeur disponible */
+}
+
+.tbs-cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 8px 16px;
+    border-bottom: none; /* Supprimer la bordure en bas */
+    /* Si vous souhaitez une bordure mais sans ligne blanche, ajustez la couleur et l'épaisseur ici */
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.tbs-cart-item:last-child {
+    border-bottom: none; /* Assurez-vous que le dernier élément n'a pas de bordure en bas */
+}
+
+.tbs-cart-item > span {
+    flex: 1;
+    margin-left: 8px; /* Ajouter une petite marge à gauche pour le texte */
+}
+
+.tbs-clear-button, .tbs-buy-button {
+    color: #ffffff;
+    background-color: #000000; /* Fond noir */
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 8px 16px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Ajout de la transition pour box-shadow */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.539);
+    width: 100%; /* La même largeur pour les deux boutons */
+}
+
+.tbs-clear-button img.tbs-clear-icon, .tbs-buy-button img.tbs-buy-icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 12px;
+}
+
+.tbs-clear-button:hover, .tbs-buy-button:hover {
+    background-color: #333333; /* Couleur gris foncé au survol */
+}
+
+.tbs-buy-button {
+    background-color: #000000; /* Fond noir */
+    color: #ffffff; /* Texte blanc */
+}
+
+.tbs-delete-button {
+    background: none; /* Pas de fond */
+    border: none; /* Pas de bordure */
+    cursor: pointer;
+    padding: 0; /* Pas de padding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tbs-delete-button img.tbs-delete-icon {
+    width: 10px; /* Taille initiale pour l'icône de suppression */
+    height: 10px; /* Taille initiale pour l'icône de suppression */
+    margin-right: 10px; /* Marge à droite */
+    transition: width 0.3s, height 0.3s; /* Transition pour la taille */
+}
+
+.tbs-delete-button img.tbs-delete-icon:hover {
+    width: 12px; /* Taille lors du survol pour l'icône de suppression */
+    height: 12px; /* Taille lors du survol pour l'icône de suppression */
+}
+
+@media (max-width: 768px) {
+    .tbs-cart {
+        right: 0; /* Ajuster à droite */
+        left: 0; /* Ajuster à gauche */
+        top: 60px; /* Garder un espace en haut */
+        width: 100%; /* Prendre toute la largeur sur mobile */
+        height: 38px; /* Hauteur initiale pour le menu fermé sur mobile */
+        border-radius: 0px; /* Bordures arrondies sur mobile */
+        transition: height 0.5s ease; /* Transition pour l'effet de mouvement */
+    }
+
+    .tbs-cart-open {
+        height: 450px; /* Hauteur pour le menu ouvert sur mobile */
+    }
+
+    .tbs-cart-closed {
+        height: 38px; /* Hauteur souhaitée pour le panier fermé sur mobile */
+    }
+}
